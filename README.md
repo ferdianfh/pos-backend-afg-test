@@ -77,6 +77,9 @@ This backend side app was built with some technologies below:
 ### Base URL
 
 - Base URL
+  ```sh
+     https://pos-afg.herokuapp.com
+  ```
 
 ### Products Endpoint
 
