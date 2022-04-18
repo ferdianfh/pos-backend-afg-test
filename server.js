@@ -5,6 +5,10 @@ const cors = require("cors");
 const commonHelper = require("./src/helper/notFoundHandling");
 const errorHelper = require("./src/helper/errorHandling");
 
+// routes
+const categoryRoutes = require("./src/routes/category.routes");
+const productRoutes = require("./src/routes/product.routes");
+
 const app = express();
 const PORT = process.env.PORT || 8000;
 
@@ -15,7 +19,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(morgan("dev"));
 
 // routes
-// app.use("/users", userRoutes);
+app.use("/api/categories", categoryRoutes);
+app.use("/api/products", productRoutes);
 
 // helpers
 app.use(commonHelper.helperNotFoundMessage);
