@@ -68,7 +68,7 @@ This backend side app was built with some technologies below:
 
 ## Postman Collection
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/17519297/Uyr4Jezc)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/17519297/Uyr5of6m)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
